@@ -1,0 +1,33 @@
+@import url(estilos/header.css);
+@import url(estilos/banner-felicidade.css);
+@import url(estilos/banner-pausa.css);
+@import url(estilos/banner-sucos.css);
+@import url(estilos/banner-ambiente.css);
+@import url(estilos/banner-historias.css);
+@import url(estilos/formulario.css);
+@import url(estilos/rodape.css);
+
+@font-face {
+    font-family: 'Sodo-sans-light';
+    src: url(fontes/SoDoSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Sodo-sans-regular';
+    src: url(fontes/SoDoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Sodo-sans-bold';
+    src: url(fontes/SoDoSans-Bold.ttf);
+}
+
+:root {
+    --font-light: 'Sodo-sans-light';
+    --font-regular: 'Sodo-sans-regular';
+    --font-bold: 'Sodo-sans-bold';
+    --verde-claro: '#D4E9E2';
+    --preto-principal: '#212121';
+}
+
+body {
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#container_ambiente {
+    padding: 2em 0;
+}
+
+.imagem-ambiente {
+    width: 100%;
+}
+
+.card-ambiente {
+    background: #D4E9E2;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.titulo-ambiente {
+    font-size: 20px;
+    padding-top: 2em;
+    font-family: var(--font-regular);
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.texto-ambiente {
+    padding-top: 2em;
+    text-align: center;
+    font-family: var(--font-light);
+    font-size: 13px;
+}

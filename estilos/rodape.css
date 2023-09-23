@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.lista-nav {
+    display: flex;
+    padding: 0em 1.5em;
+}
+
+.lista-nav li {
+    padding: 0 .3em;
+}
+
+.lista-nav li:hover {
+    background: rgba(0,0,0,.06);
+    transform: scale(.90);
+    transition: .4s;
+}
+
+.lista-ajuda {
+    padding: 2em;
+}
+
+.lista-ajuda li {
+    padding: .5em 0;
+}
+
+.lista-ajuda a {
+    text-decoration: none;
+    font-family: var(--font-regular);
+    color: black;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 3em;
+    color: gray;
+}
+
+.creditos {
+    padding: 2em;
+    text-align: center;
+    font-family: var(--font-regular);
+    background-color: #D4E9E2;
+}

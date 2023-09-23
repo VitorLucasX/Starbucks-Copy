@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.imagem-historia {
+    width: 100%;
+}
+
+.card-historia {
+    background: #D4E9E2;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.titulo-historia {
+    font-size: 20px;
+    padding-top: 2em;
+    font-family: var(--font-regular);
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.texto-historia {
+    padding-top: 2em;
+    text-align: center;
+    line-height: 25px;
+    font-family: var(--font-light);
+    font-size: 15px;
+}
