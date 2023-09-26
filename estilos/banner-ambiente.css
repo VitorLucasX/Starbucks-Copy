@@ -27,3 +27,23 @@
     font-family: var(--font-light);
     font-size: 13px;
 }
+
+@media screen and (min-width: 1023px) {
+    #container_ambiente {
+        margin: auto;
+        width: 85%;
+        display: flex;
+    }
+
+    .card-ambiente {
+        width: 50%;
+    }
+
+    .imagem-ambiente {
+        width: 50%;
+    }
+
+    .titulo-ambiente {
+        padding-top: 6em;
+    }
+}

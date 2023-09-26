@@ -28,3 +28,24 @@
     font-family: var(--font-bold);
     color: rgba(0, 0, 0, 0.623);
 }
+
+@media screen and (min-width: 1023px) {
+    #container_sucos {
+        margin: auto;
+        width: 85%;
+        display: flex;
+    }
+
+    .card-sucos {
+        width: 50%;
+    }
+
+    .imagem-sucos {
+        width: 50%;
+        
+    }
+
+    .titulo-suco {
+        padding-top: 6em;
+    }
+}

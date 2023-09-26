@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.imagem-felicidade_desktop {
+    display: none;
+}
+
 .card_felicidade {
     text-align: center;
     background: #D4E9E2;
@@ -37,4 +41,22 @@
     text-decoration: none;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.671);
+}
+
+@media screen and (min-width: 1023px) {
+    .imagem-felicidade_desktop {
+        display: block;
+        margin: auto;
+        width: 85%;
+    }
+
+    .imagem-felicidade {
+        display: none;
+    }
+
+    .card_felicidade {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

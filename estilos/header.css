@@ -1,12 +1,36 @@
 @charset "UTF-8";
 
-header {
-    height: 8vh;
-}
-
 #container-header {
     display: flex;
     justify-content: space-between;
+}
+
+.logo-nav {
+    display: flex;
+}
+
+.lista-navigation ul {
+    display: flex;
+}
+
+.lista-navigation li {
+    padding: 0 13px;
+}
+
+.lista-navigation a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.705);
+    font-family: var(--font-bold);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.lista-navigation a:hover {
+    color: #008248;
+}
+
+.lista-navigation {
+    display: none;
 }
 
 .logo-starbucks {
@@ -14,7 +38,128 @@ header {
     padding: 15px;
 }
 
+.menu-nav {
+    display: flex;
+}
+
 .menu-header {
     padding: 20px;
     cursor: pointer;
 }
+
+.list-desktop {
+    display: none;
+}
+
+.history {
+    width: 110px;
+}
+
+.encontre {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.encontre a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.entrar {
+    border-radius: 24px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 6px 15px;
+    margin-right: 1em;
+}
+
+.entrar:hover {
+    background: rgba(0,0,0,.06);
+    transform: scale(.90);
+    transition: .4s;
+}
+
+.entrar a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.participe {
+    border-radius: 24px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: 15px;
+    padding: 6px 15px;
+}
+
+.participe:hover {
+    transform: scale(.90);
+    transition: .4s;
+}
+
+.participe a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+
+@media screen and (min-width: 710px) {
+    
+    .lista-navigation {
+        display: block;
+    }
+
+    .lista-navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-header {
+        display: none;
+    }
+
+    .list-desktop {
+        display: flex;
+        align-items: center;
+    }
+
+    .entrar {
+        display: none;
+    }
+
+    .participe {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 790px) {    
+    .logo-starbucks {
+        width: 55px;
+    }
+    
+    .entrar {
+        display: block;
+    }
+
+    .list-desktop {
+        padding-right: 1em;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .participe {
+        display: block;
+    }
+
+    .logo-starbucks {
+        padding-left: 3em;
+    }
+}
+

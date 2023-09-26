@@ -24,3 +24,24 @@
     font-family: var(--font-light);
     font-size: 15px;
 }
+
+@media screen and (min-width: 1023px) {
+    #historias {
+        margin: auto;
+        width: 85%;
+        display: flex;
+    }
+
+    .card-historia {
+        width: 50%;
+    }
+
+    .imagem-historia {
+        width: 50%;
+       
+    }
+
+    .titulo-historia {
+        padding-top: 6em;
+    }
+}
