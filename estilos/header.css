@@ -47,6 +47,25 @@
     cursor: pointer;
 }
 
+#itens {
+    display: none;
+}
+
+#itens li {
+    padding: 10px 0;
+}
+
+#itens a {
+    text-decoration: none;
+    font-family: var(--font-bold);
+    color: rgba(0, 0, 0, 0.637);
+    font-size: 14px;
+}
+
+#itens a:hover {
+    color: #008248;
+}
+
 .list-desktop {
     display: none;
 }
